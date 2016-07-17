@@ -1,3 +1,5 @@
+Ubuntu digital ocean instalation
 
-Documentation is available at http://nginx.org
+apt-get update
+apt-get install git build-essential libpcre3 libpcre3-dev zlib1g-dev -y
 
