@@ -1,3 +1,5 @@
 #!/bin/bash
 
-./configure --prefix=$(pwd)/build
+[ -d bin ] || mkdir bin
+
+./configure --prefix=$(pwd)/bin
